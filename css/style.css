@@ -1,0 +1,155 @@
+.tamimg{
+	height: 150px;
+	margin-top: 5px;
+}
+
+@font-face{
+	font-family: pxfont;
+	src: url(fuentes/pxfont.ttf);
+}
+
+@font-face{
+	font-family: pkfont;
+	src: url(fuentes/pkfont.ttf);
+}
+
+@font-face{
+	font-family: ptfont;
+	src: url(fuentes/ptfont.ttf);
+}
+
+h1{
+	font-family: ptfont;
+	color: #FF624F;
+	font-size: 2rem;
+	line-height: 1.3em;
+}
+
+h2{
+	font-family: ptfont;
+	color: #FF624F;
+	font-size: 1rem;
+	line-height: 0.3em;
+}
+
+p{
+	margin-bottom: 1.5em;
+}
+
+body{
+	font-family: ptfont;
+	color: #454C5B;
+	font-size: 1.2rem;
+	line-height: 1.6em;
+	margin: 0;
+}
+
+.container1{
+	width: 85%;
+	max-width: 850px;
+	margin: 0 auto;
+	width: 200;
+}
+
+.container{
+	text-align: justify;
+	width: 85%;
+	max-width: 850px;
+	margin: 0 auto;
+	width: 200;
+}
+
+.header{
+	background: #FF624F;
+	color: white;
+	text-align: center;
+	padding: 1rem 0;
+	position: sticky;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+.header a{
+	color: white;
+	text-decoration: none;
+}
+
+.icoN-nav-container1, .navegar{
+	font-family: pkfont;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navegar li{
+	list-style: none;
+	display: inline-block;
+}
+
+.footer{
+	background: #464947;
+	color: white;
+	padding: 2rem 0;
+	font-family: pkfont;
+}
+
+.footer a, li{
+	color: white;
+	text-decoration: none;
+	list-style: disc url("img/flechita.png");
+}
+
+main{
+	padding-top: 50px;
+}
+
+.verde{
+	background: #4BA85B;
+}
+
+.icoR{
+	height: 50px;
+	margin-right: 10px;
+}
+
+.container2{
+	width: 85%;
+	max-width: 850px;
+	margin: 0 auto;
+	width: 200;
+	text-align: right;
+}
+
+.gale{
+	height: 450px;
+}
+
+.logopos{
+	background: #FF624F;
+	color: white;
+	text-align: center;
+	padding: 2rem 0;
+	position:static;
+	left: 0;
+	right: 0;
+}
+
+table{
+	width: 85%;
+	max-width: 850px;
+	background: #E5E5E5;
+	text-align: left;
+}
+
+td, th{
+	border: solid 1px black;
+}
+
+.spritexpan{
+	height: 200px;
+}
+
+.datosdatosos{
+	background-color: #4BA85B;
+}
